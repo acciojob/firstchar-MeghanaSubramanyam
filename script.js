@@ -1,5 +1,10 @@
 function firstChar(text) {
   // your code here
+	if(str==""){
+		return ' '
+	}
+	str.trim();
+	return str[0]
 }
 
 // Do not change the code below
