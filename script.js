@@ -1,10 +1,11 @@
 function firstChar(text) {
   // your code here
-	if(str==""){
-		return ' '
+	for(let i=0;i<str.length;i++){
+		if(str[i]!=''){
+			return str[i]
+		}
 	}
-	str.trim();
-	return str[0]
+	return ''
 }
 
 // Do not change the code below
